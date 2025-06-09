@@ -1,0 +1,10 @@
+[package]
+name = "infuze-rust-examples"
+version = "0.2.1"
+edition = "2021"
+
+[dependencies]
+
+# IMPORTANT: modify the "path" attribute to point to your rust WURFL module installation
+wurfl = { version = "1.6.0", path = "/path-to/rust-wurfl" }
+
